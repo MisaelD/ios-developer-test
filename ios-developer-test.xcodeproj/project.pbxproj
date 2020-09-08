@@ -62,8 +62,6 @@
 		0B7CA5862506D9B600D8519E = {
 			isa = PBXGroup;
 			children = (
-				0B62701F25074C850049257C /* Placa+CoreDataClass.swift */,
-				0B62702025074C850049257C /* Placa+CoreDataProperties.swift */,
 				0B7CA5912506D9B600D8519E /* ios-developer-test */,
 				0B7CA5902506D9B600D8519E /* Products */,
 			);
@@ -80,6 +78,7 @@
 		0B7CA5912506D9B600D8519E /* ios-developer-test */ = {
 			isa = PBXGroup;
 			children = (
+				0B627018250725EF0049257C /* HugoModel.xcdatamodeld */,
 				0B7CA5A62506D9D800D8519E /* Model */,
 				0B7CA5A52506D9CE00D8519E /* ViewModel */,
 				0B7CA5A42506D9C400D8519E /* View */,
@@ -119,7 +118,8 @@
 		0B7CA5A62506D9D800D8519E /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				0B627018250725EF0049257C /* HugoModel.xcdatamodeld */,
+				0B62701F25074C850049257C /* Placa+CoreDataClass.swift */,
+				0B62702025074C850049257C /* Placa+CoreDataProperties.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
