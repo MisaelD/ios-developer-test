@@ -7,21 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B62700B2507173E0049257C /* AddLicensePlateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B62700A2507173E0049257C /* AddLicensePlateViewModel.swift */; };
+		0B62700D250718590049257C /* RecordListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B62700C250718590049257C /* RecordListTableViewCell.swift */; };
+		0B62701A250725EF0049257C /* HugoModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0B627018250725EF0049257C /* HugoModel.xcdatamodeld */; };
+		0B62701C250730BA0049257C /* RecordListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B62701B250730BA0049257C /* RecordListViewModel.swift */; };
+		0B62702125074C850049257C /* Placa+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B62701F25074C850049257C /* Placa+CoreDataClass.swift */; };
+		0B62702225074C850049257C /* Placa+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B62702025074C850049257C /* Placa+CoreDataProperties.swift */; };
+		0B62702425075F470049257C /* CheckoutViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B62702325075F470049257C /* CheckoutViewModel.swift */; };
 		0B7CA5932506D9B600D8519E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B7CA5922506D9B600D8519E /* AppDelegate.swift */; };
-		0B7CA5952506D9B600D8519E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B7CA5942506D9B600D8519E /* ViewController.swift */; };
 		0B7CA5982506D9B600D8519E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B7CA5962506D9B600D8519E /* Main.storyboard */; };
 		0B7CA59A2506D9B600D8519E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B7CA5992506D9B600D8519E /* Assets.xcassets */; };
 		0B7CA59D2506D9B600D8519E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B7CA59B2506D9B600D8519E /* LaunchScreen.storyboard */; };
+		0B7CA5A82506D9E700D8519E /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B7CA5A72506D9E700D8519E /* MenuViewController.swift */; };
+		0B7CA5AA2506DAB100D8519E /* AddLicensePlateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B7CA5A92506DAB100D8519E /* AddLicensePlateViewController.swift */; };
+		0B7CA5AC2506DBE900D8519E /* CheckoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B7CA5AB2506DBE900D8519E /* CheckoutViewController.swift */; };
+		0B7CA5AE2506DBFC00D8519E /* RecordListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B7CA5AD2506DBFC00D8519E /* RecordListViewController.swift */; };
+		0BB3937A25077130001DD017 /* AddVehicleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB3937925077130001DD017 /* AddVehicleViewController.swift */; };
+		0BB3937C25077160001DD017 /* AddVehicleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB3937B25077160001DD017 /* AddVehicleViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0B62700A2507173E0049257C /* AddLicensePlateViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddLicensePlateViewModel.swift; sourceTree = "<group>"; };
+		0B62700C250718590049257C /* RecordListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordListTableViewCell.swift; sourceTree = "<group>"; };
+		0B627019250725EF0049257C /* HugoModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HugoModel.xcdatamodel; sourceTree = "<group>"; };
+		0B62701B250730BA0049257C /* RecordListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordListViewModel.swift; sourceTree = "<group>"; };
+		0B62701F25074C850049257C /* Placa+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Placa+CoreDataClass.swift"; sourceTree = "<group>"; };
+		0B62702025074C850049257C /* Placa+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Placa+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		0B62702325075F470049257C /* CheckoutViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutViewModel.swift; sourceTree = "<group>"; };
 		0B7CA58F2506D9B600D8519E /* ios-developer-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-developer-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B7CA5922506D9B600D8519E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0B7CA5942506D9B600D8519E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0B7CA5972506D9B600D8519E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0B7CA5992506D9B600D8519E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0B7CA59C2506D9B600D8519E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0B7CA59E2506D9B600D8519E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B7CA5A72506D9E700D8519E /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		0B7CA5A92506DAB100D8519E /* AddLicensePlateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddLicensePlateViewController.swift; sourceTree = "<group>"; };
+		0B7CA5AB2506DBE900D8519E /* CheckoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutViewController.swift; sourceTree = "<group>"; };
+		0B7CA5AD2506DBFC00D8519E /* RecordListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordListViewController.swift; sourceTree = "<group>"; };
+		0BB3937925077130001DD017 /* AddVehicleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddVehicleViewController.swift; sourceTree = "<group>"; };
+		0BB3937B25077160001DD017 /* AddVehicleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddVehicleViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +62,8 @@
 		0B7CA5862506D9B600D8519E = {
 			isa = PBXGroup;
 			children = (
+				0B62701F25074C850049257C /* Placa+CoreDataClass.swift */,
+				0B62702025074C850049257C /* Placa+CoreDataProperties.swift */,
 				0B7CA5912506D9B600D8519E /* ios-developer-test */,
 				0B7CA5902506D9B600D8519E /* Products */,
 			);
@@ -54,14 +80,48 @@
 		0B7CA5912506D9B600D8519E /* ios-developer-test */ = {
 			isa = PBXGroup;
 			children = (
+				0B7CA5A62506D9D800D8519E /* Model */,
+				0B7CA5A52506D9CE00D8519E /* ViewModel */,
+				0B7CA5A42506D9C400D8519E /* View */,
 				0B7CA5922506D9B600D8519E /* AppDelegate.swift */,
-				0B7CA5942506D9B600D8519E /* ViewController.swift */,
 				0B7CA5962506D9B600D8519E /* Main.storyboard */,
 				0B7CA5992506D9B600D8519E /* Assets.xcassets */,
 				0B7CA59B2506D9B600D8519E /* LaunchScreen.storyboard */,
 				0B7CA59E2506D9B600D8519E /* Info.plist */,
 			);
 			path = "ios-developer-test";
+			sourceTree = "<group>";
+		};
+		0B7CA5A42506D9C400D8519E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0B7CA5A72506D9E700D8519E /* MenuViewController.swift */,
+				0BB3937925077130001DD017 /* AddVehicleViewController.swift */,
+				0B7CA5A92506DAB100D8519E /* AddLicensePlateViewController.swift */,
+				0B7CA5AB2506DBE900D8519E /* CheckoutViewController.swift */,
+				0B7CA5AD2506DBFC00D8519E /* RecordListViewController.swift */,
+				0B62700C250718590049257C /* RecordListTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0B7CA5A52506D9CE00D8519E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0B62700A2507173E0049257C /* AddLicensePlateViewModel.swift */,
+				0BB3937B25077160001DD017 /* AddVehicleViewModel.swift */,
+				0B62701B250730BA0049257C /* RecordListViewModel.swift */,
+				0B62702325075F470049257C /* CheckoutViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		0B7CA5A62506D9D800D8519E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0B627018250725EF0049257C /* HugoModel.xcdatamodeld */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,8 +196,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B7CA5952506D9B600D8519E /* ViewController.swift in Sources */,
+				0B62702425075F470049257C /* CheckoutViewModel.swift in Sources */,
+				0BB3937A25077130001DD017 /* AddVehicleViewController.swift in Sources */,
+				0B7CA5AC2506DBE900D8519E /* CheckoutViewController.swift in Sources */,
+				0B62702225074C850049257C /* Placa+CoreDataProperties.swift in Sources */,
+				0B62700D250718590049257C /* RecordListTableViewCell.swift in Sources */,
+				0B62701A250725EF0049257C /* HugoModel.xcdatamodeld in Sources */,
+				0B7CA5AA2506DAB100D8519E /* AddLicensePlateViewController.swift in Sources */,
+				0B7CA5A82506D9E700D8519E /* MenuViewController.swift in Sources */,
+				0B7CA5AE2506DBFC00D8519E /* RecordListViewController.swift in Sources */,
 				0B7CA5932506D9B600D8519E /* AppDelegate.swift in Sources */,
+				0B62702125074C850049257C /* Placa+CoreDataClass.swift in Sources */,
+				0B62701C250730BA0049257C /* RecordListViewModel.swift in Sources */,
+				0B62700B2507173E0049257C /* AddLicensePlateViewModel.swift in Sources */,
+				0BB3937C25077160001DD017 /* AddVehicleViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,6 +392,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0B627018250725EF0049257C /* HugoModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0B627019250725EF0049257C /* HugoModel.xcdatamodel */,
+			);
+			currentVersion = 0B627019250725EF0049257C /* HugoModel.xcdatamodel */;
+			path = HugoModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 0B7CA5872506D9B600D8519E /* Project object */;
 }
