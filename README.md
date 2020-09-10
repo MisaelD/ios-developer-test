@@ -1,2 +1,2 @@
 # ios-developer-test
-![alt text](https://github.com/MisaelD/ios-developer-test/blob/master/image1.png?raw=true)
+![alt text](https://raw.githubusercontent.com/MisaelD/ios-developer-test/master/ios-developer-test/ImagesApp/image1.png?raw=true)
