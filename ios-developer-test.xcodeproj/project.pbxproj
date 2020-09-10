@@ -23,7 +23,7 @@
 		0B407F1A250A3575006D499D /* MenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B407F19250A3575006D499D /* MenuViewModel.swift */; };
 		0B407F1E250A4481006D499D /* FileTxtManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B407F1D250A4481006D499D /* FileTxtManager.swift */; };
 		0B407F20250A45DA006D499D /* ResidentPayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B407F1F250A45DA006D499D /* ResidentPayViewModel.swift */; };
-		0B407F2C250A7B4E006D499D /* Simulator Screen Shot - iPhone 8 Plus - 2020-09-10 at 10.16.02.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B407F22250A7B4A006D499D /* Simulator Screen Shot - iPhone 8 Plus - 2020-09-10 at 10.16.02.png */; };
+		0B407F2C250A7B4E006D499D /* image1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B407F22250A7B4A006D499D /* image1.png */; };
 		0B407F2D250A7B4E006D499D /* Simulator Screen Shot - iPhone 8 Plus - 2020-09-10 at 10.18.03.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B407F23250A7B4B006D499D /* Simulator Screen Shot - iPhone 8 Plus - 2020-09-10 at 10.18.03.png */; };
 		0B407F2E250A7B4E006D499D /* Simulator Screen Shot - iPhone 8 Plus - 2020-09-10 at 10.17.03.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B407F24250A7B4B006D499D /* Simulator Screen Shot - iPhone 8 Plus - 2020-09-10 at 10.17.03.png */; };
 		0B407F2F250A7B4E006D499D /* Simulator Screen Shot - iPhone 8 Plus - 2020-09-10 at 10.17.59.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B407F25250A7B4C006D499D /* Simulator Screen Shot - iPhone 8 Plus - 2020-09-10 at 10.17.59.png */; };
@@ -67,7 +67,7 @@
 		0B407F19250A3575006D499D /* MenuViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewModel.swift; sourceTree = "<group>"; };
 		0B407F1D250A4481006D499D /* FileTxtManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileTxtManager.swift; sourceTree = "<group>"; };
 		0B407F1F250A45DA006D499D /* ResidentPayViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResidentPayViewModel.swift; sourceTree = "<group>"; };
-		0B407F22250A7B4A006D499D /* Simulator Screen Shot - iPhone 8 Plus - 2020-09-10 at 10.16.02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot - iPhone 8 Plus - 2020-09-10 at 10.16.02.png"; sourceTree = "<group>"; };
+		0B407F22250A7B4A006D499D /* image1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image1.png; sourceTree = "<group>"; };
 		0B407F23250A7B4B006D499D /* Simulator Screen Shot - iPhone 8 Plus - 2020-09-10 at 10.18.03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot - iPhone 8 Plus - 2020-09-10 at 10.18.03.png"; sourceTree = "<group>"; };
 		0B407F24250A7B4B006D499D /* Simulator Screen Shot - iPhone 8 Plus - 2020-09-10 at 10.17.03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot - iPhone 8 Plus - 2020-09-10 at 10.17.03.png"; sourceTree = "<group>"; };
 		0B407F25250A7B4C006D499D /* Simulator Screen Shot - iPhone 8 Plus - 2020-09-10 at 10.17.59.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot - iPhone 8 Plus - 2020-09-10 at 10.17.59.png"; sourceTree = "<group>"; };
@@ -119,7 +119,7 @@
 		0B407F21250A7A90006D499D /* ImagesApp */ = {
 			isa = PBXGroup;
 			children = (
-				0B407F22250A7B4A006D499D /* Simulator Screen Shot - iPhone 8 Plus - 2020-09-10 at 10.16.02.png */,
+				0B407F22250A7B4A006D499D /* image1.png */,
 				0B407F2B250A7B4E006D499D /* Simulator Screen Shot - iPhone 8 Plus - 2020-09-10 at 10.16.22.png */,
 				0B407F2A250A7B4D006D499D /* Simulator Screen Shot - iPhone 8 Plus - 2020-09-10 at 10.16.26.png */,
 				0B407F24250A7B4B006D499D /* Simulator Screen Shot - iPhone 8 Plus - 2020-09-10 at 10.17.03.png */,
@@ -290,7 +290,7 @@
 				0B407F30250A7B4E006D499D /* Simulator Screen Shot - iPhone 8 Plus - 2020-09-10 at 10.17.33.png in Resources */,
 				0B7CA5982506D9B600D8519E /* Main.storyboard in Resources */,
 				0B407F34250A7B4E006D499D /* Simulator Screen Shot - iPhone 8 Plus - 2020-09-10 at 10.16.26.png in Resources */,
-				0B407F2C250A7B4E006D499D /* Simulator Screen Shot - iPhone 8 Plus - 2020-09-10 at 10.16.02.png in Resources */,
+				0B407F2C250A7B4E006D499D /* image1.png in Resources */,
 				0B407F2F250A7B4E006D499D /* Simulator Screen Shot - iPhone 8 Plus - 2020-09-10 at 10.17.59.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
