@@ -1,18 +1,21 @@
 import UIKit
 
-class AddLicensePlateViewController: UIViewController {
+class CheckInViewController: UIViewController {
     
     @IBOutlet weak var licensePlateTV : UITextField!
     
-    var addLicensePlateViewModel : AddLicensePlateViewModel?
+    var checkInViewModel : CheckInViewModel?
     
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "Registrar entrada"
         navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Guardar", style: .plain, target: self, action: #selector(saveButton))
-        addLicensePlateViewModel = AddLicensePlateViewModel()
+        licensePlateTV.delegate = self
+        licensePlateTV.placeholder = "Placa"
+        licensePlateTV.becomeFirstResponder()
+        checkInViewModel = CheckInViewModel()
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
@@ -28,17 +31,23 @@ class AddLicensePlateViewController: UIViewController {
             return
         }
         
-        let success = addLicensePlateViewModel?.updateLicensePlate(licensePlate: licensePlateTV.text!)
-        
-        if success! {
+        let success = checkInViewModel?.checkInVehicle(licensePlate: licensePlateTV.text!)
+        switch success! {
+        case .recordNoExist:
+            showAlert(text: "No se encontró un registro que coincida con la placa del vehículo")
+        case .parked:
+            showAlert(text: "El vehículo esta en el estacionamiento")
+        case .error:
+            showAlert(text: "Hubo algun problema, inténtelo de nuevo")
+        case .success:
             if let navController = self.navigationController {
                 navController.popViewController(animated: true)
             }
-        }else {
-            showAlert(text: "No se encontró un registro que coincida con la placa")
+        default:
+            break
         }
     }
-
+    
     func showAlert(text: String) {
         let alert = UIAlertController(title: "", message: text, preferredStyle: .alert)
         alert.addAction(UIAlertAction(title: "Aceptar", style: .default, handler: nil))
@@ -46,9 +55,15 @@ class AddLicensePlateViewController: UIViewController {
     }
 }
 
-extension AddLicensePlateViewController: UITextFieldDelegate {
+extension CheckInViewController: UITextFieldDelegate {
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         saveLicensePlate()
         return true
+    }
+    
+    func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
+        textField.text = (textField.text! as NSString).replacingCharacters(in: range, with: string.uppercased())
+        
+        return false
     }
 }

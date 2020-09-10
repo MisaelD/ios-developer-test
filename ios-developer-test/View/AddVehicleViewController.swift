@@ -10,8 +10,11 @@ class AddVehicleViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.title = "Regustrar vehículo"
+        self.title = "Registrar vehículo"
         navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Guardar", style: .plain, target: self, action: #selector(saveButton))
+        licensePlateTV.delegate = self
+        licensePlateTV.placeholder = "Placa"
+        licensePlateTV.becomeFirstResponder()
         addVehicleViewModel = AddVehicleViewModel()
     }
     
@@ -44,7 +47,7 @@ class AddVehicleViewController: UIViewController {
                     navController.popViewController(animated: true)
                 }
             } else {
-                showAlert(text: "Hubo un problema, inténtelo de nuevo")
+                showAlert(text: "Ya ha ingresado la placa del vehículo")
             }
         })
     }
@@ -60,5 +63,11 @@ extension AddVehicleViewController: UITextFieldDelegate {
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         saveVehicle()
         return true
+    }
+    
+    func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
+        textField.text = (textField.text! as NSString).replacingCharacters(in: range, with: string.uppercased())
+        
+        return false
     }
 }

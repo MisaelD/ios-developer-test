@@ -7,32 +7,59 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0B62700B2507173E0049257C /* AddLicensePlateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B62700A2507173E0049257C /* AddLicensePlateViewModel.swift */; };
+		0B0B87B02509D33600BA976E /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0B87AF2509D33600BA976E /* CoreDataManager.swift */; };
+		0B0B87B22509D59000BA976E /* CheckInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0B87B12509D59000BA976E /* CheckInViewModel.swift */; };
+		0B0B87B42509D5FB00BA976E /* CheckInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0B87B32509D5FB00BA976E /* CheckInViewController.swift */; };
+		0B407F062509E00F006D499D /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B407F052509E00F006D499D /* Enums.swift */; };
+		0B407F08250A05BE006D499D /* VehicleListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B407F07250A05BE006D499D /* VehicleListViewController.swift */; };
+		0B407F0A250A05D4006D499D /* VehicleListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B407F09250A05D4006D499D /* VehicleListTableViewCell.swift */; };
+		0B407F0C250A0639006D499D /* VehicleListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B407F0B250A0639006D499D /* VehicleListViewModel.swift */; };
+		0B407F0E250A1D62006D499D /* RecordCheckOutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B407F0D250A1D62006D499D /* RecordCheckOutView.swift */; };
+		0B407F13250A3376006D499D /* Placa+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B407F0F250A3376006D499D /* Placa+CoreDataClass.swift */; };
+		0B407F14250A3376006D499D /* Placa+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B407F10250A3376006D499D /* Placa+CoreDataProperties.swift */; };
+		0B407F15250A3376006D499D /* Estancia+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B407F11250A3376006D499D /* Estancia+CoreDataClass.swift */; };
+		0B407F16250A3376006D499D /* Estancia+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B407F12250A3376006D499D /* Estancia+CoreDataProperties.swift */; };
+		0B407F18250A3549006D499D /* ResidentPayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B407F17250A3549006D499D /* ResidentPayViewController.swift */; };
+		0B407F1A250A3575006D499D /* MenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B407F19250A3575006D499D /* MenuViewModel.swift */; };
+		0B407F1E250A4481006D499D /* FileTxtManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B407F1D250A4481006D499D /* FileTxtManager.swift */; };
+		0B407F20250A45DA006D499D /* ResidentPayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B407F1F250A45DA006D499D /* ResidentPayViewModel.swift */; };
 		0B62700D250718590049257C /* RecordListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B62700C250718590049257C /* RecordListTableViewCell.swift */; };
 		0B62701A250725EF0049257C /* HugoModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0B627018250725EF0049257C /* HugoModel.xcdatamodeld */; };
 		0B62701C250730BA0049257C /* RecordListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B62701B250730BA0049257C /* RecordListViewModel.swift */; };
-		0B62702125074C850049257C /* Placa+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B62701F25074C850049257C /* Placa+CoreDataClass.swift */; };
-		0B62702225074C850049257C /* Placa+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B62702025074C850049257C /* Placa+CoreDataProperties.swift */; };
 		0B62702425075F470049257C /* CheckoutViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B62702325075F470049257C /* CheckoutViewModel.swift */; };
 		0B7CA5932506D9B600D8519E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B7CA5922506D9B600D8519E /* AppDelegate.swift */; };
 		0B7CA5982506D9B600D8519E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B7CA5962506D9B600D8519E /* Main.storyboard */; };
 		0B7CA59A2506D9B600D8519E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B7CA5992506D9B600D8519E /* Assets.xcassets */; };
 		0B7CA59D2506D9B600D8519E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B7CA59B2506D9B600D8519E /* LaunchScreen.storyboard */; };
 		0B7CA5A82506D9E700D8519E /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B7CA5A72506D9E700D8519E /* MenuViewController.swift */; };
-		0B7CA5AA2506DAB100D8519E /* AddLicensePlateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B7CA5A92506DAB100D8519E /* AddLicensePlateViewController.swift */; };
 		0B7CA5AC2506DBE900D8519E /* CheckoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B7CA5AB2506DBE900D8519E /* CheckoutViewController.swift */; };
 		0B7CA5AE2506DBFC00D8519E /* RecordListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B7CA5AD2506DBFC00D8519E /* RecordListViewController.swift */; };
 		0BB3937A25077130001DD017 /* AddVehicleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB3937925077130001DD017 /* AddVehicleViewController.swift */; };
 		0BB3937C25077160001DD017 /* AddVehicleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB3937B25077160001DD017 /* AddVehicleViewModel.swift */; };
+		0BB3937F25082CC2001DD017 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB3937E25082CC2001DD017 /* Extensions.swift */; };
+		0BB393812508A08C001DD017 /* HSUnderLineTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB393802508A08C001DD017 /* HSUnderLineTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0B62700A2507173E0049257C /* AddLicensePlateViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddLicensePlateViewModel.swift; sourceTree = "<group>"; };
+		0B0B87AF2509D33600BA976E /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		0B0B87B12509D59000BA976E /* CheckInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckInViewModel.swift; sourceTree = "<group>"; };
+		0B0B87B32509D5FB00BA976E /* CheckInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckInViewController.swift; sourceTree = "<group>"; };
+		0B407F052509E00F006D499D /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		0B407F07250A05BE006D499D /* VehicleListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleListViewController.swift; sourceTree = "<group>"; };
+		0B407F09250A05D4006D499D /* VehicleListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleListTableViewCell.swift; sourceTree = "<group>"; };
+		0B407F0B250A0639006D499D /* VehicleListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleListViewModel.swift; sourceTree = "<group>"; };
+		0B407F0D250A1D62006D499D /* RecordCheckOutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordCheckOutView.swift; sourceTree = "<group>"; };
+		0B407F0F250A3376006D499D /* Placa+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Placa+CoreDataClass.swift"; sourceTree = "<group>"; };
+		0B407F10250A3376006D499D /* Placa+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Placa+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		0B407F11250A3376006D499D /* Estancia+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Estancia+CoreDataClass.swift"; sourceTree = "<group>"; };
+		0B407F12250A3376006D499D /* Estancia+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Estancia+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		0B407F17250A3549006D499D /* ResidentPayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResidentPayViewController.swift; sourceTree = "<group>"; };
+		0B407F19250A3575006D499D /* MenuViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewModel.swift; sourceTree = "<group>"; };
+		0B407F1D250A4481006D499D /* FileTxtManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileTxtManager.swift; sourceTree = "<group>"; };
+		0B407F1F250A45DA006D499D /* ResidentPayViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResidentPayViewModel.swift; sourceTree = "<group>"; };
 		0B62700C250718590049257C /* RecordListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordListTableViewCell.swift; sourceTree = "<group>"; };
 		0B627019250725EF0049257C /* HugoModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HugoModel.xcdatamodel; sourceTree = "<group>"; };
 		0B62701B250730BA0049257C /* RecordListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordListViewModel.swift; sourceTree = "<group>"; };
-		0B62701F25074C850049257C /* Placa+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Placa+CoreDataClass.swift"; sourceTree = "<group>"; };
-		0B62702025074C850049257C /* Placa+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Placa+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		0B62702325075F470049257C /* CheckoutViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutViewModel.swift; sourceTree = "<group>"; };
 		0B7CA58F2506D9B600D8519E /* ios-developer-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-developer-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B7CA5922506D9B600D8519E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -41,11 +68,12 @@
 		0B7CA59C2506D9B600D8519E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0B7CA59E2506D9B600D8519E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0B7CA5A72506D9E700D8519E /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
-		0B7CA5A92506DAB100D8519E /* AddLicensePlateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddLicensePlateViewController.swift; sourceTree = "<group>"; };
 		0B7CA5AB2506DBE900D8519E /* CheckoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutViewController.swift; sourceTree = "<group>"; };
 		0B7CA5AD2506DBFC00D8519E /* RecordListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordListViewController.swift; sourceTree = "<group>"; };
 		0BB3937925077130001DD017 /* AddVehicleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddVehicleViewController.swift; sourceTree = "<group>"; };
 		0BB3937B25077160001DD017 /* AddVehicleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddVehicleViewModel.swift; sourceTree = "<group>"; };
+		0BB3937E25082CC2001DD017 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		0BB393802508A08C001DD017 /* HSUnderLineTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSUnderLineTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +87,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B407F042509D834006D499D /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				0B0B87AF2509D33600BA976E /* CoreDataManager.swift */,
+				0B407F1D250A4481006D499D /* FileTxtManager.swift */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
 		0B7CA5862506D9B600D8519E = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +115,8 @@
 		0B7CA5912506D9B600D8519E /* ios-developer-test */ = {
 			isa = PBXGroup;
 			children = (
+				0B407F042509D834006D499D /* DataSource */,
+				0BB3937D25082CAB001DD017 /* Helpers */,
 				0B627018250725EF0049257C /* HugoModel.xcdatamodeld */,
 				0B7CA5A62506D9D800D8519E /* Model */,
 				0B7CA5A52506D9CE00D8519E /* ViewModel */,
@@ -96,10 +135,14 @@
 			children = (
 				0B7CA5A72506D9E700D8519E /* MenuViewController.swift */,
 				0BB3937925077130001DD017 /* AddVehicleViewController.swift */,
-				0B7CA5A92506DAB100D8519E /* AddLicensePlateViewController.swift */,
+				0B0B87B32509D5FB00BA976E /* CheckInViewController.swift */,
 				0B7CA5AB2506DBE900D8519E /* CheckoutViewController.swift */,
 				0B7CA5AD2506DBFC00D8519E /* RecordListViewController.swift */,
 				0B62700C250718590049257C /* RecordListTableViewCell.swift */,
+				0B407F07250A05BE006D499D /* VehicleListViewController.swift */,
+				0B407F09250A05D4006D499D /* VehicleListTableViewCell.swift */,
+				0B407F0D250A1D62006D499D /* RecordCheckOutView.swift */,
+				0B407F17250A3549006D499D /* ResidentPayViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -107,10 +150,13 @@
 		0B7CA5A52506D9CE00D8519E /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				0B62700A2507173E0049257C /* AddLicensePlateViewModel.swift */,
+				0B0B87B12509D59000BA976E /* CheckInViewModel.swift */,
 				0BB3937B25077160001DD017 /* AddVehicleViewModel.swift */,
 				0B62701B250730BA0049257C /* RecordListViewModel.swift */,
 				0B62702325075F470049257C /* CheckoutViewModel.swift */,
+				0B407F0B250A0639006D499D /* VehicleListViewModel.swift */,
+				0B407F19250A3575006D499D /* MenuViewModel.swift */,
+				0B407F1F250A45DA006D499D /* ResidentPayViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -118,10 +164,22 @@
 		0B7CA5A62506D9D800D8519E /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				0B62701F25074C850049257C /* Placa+CoreDataClass.swift */,
-				0B62702025074C850049257C /* Placa+CoreDataProperties.swift */,
+				0B407F0F250A3376006D499D /* Placa+CoreDataClass.swift */,
+				0B407F10250A3376006D499D /* Placa+CoreDataProperties.swift */,
+				0B407F11250A3376006D499D /* Estancia+CoreDataClass.swift */,
+				0B407F12250A3376006D499D /* Estancia+CoreDataProperties.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		0BB3937D25082CAB001DD017 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				0BB3937E25082CC2001DD017 /* Extensions.swift */,
+				0BB393802508A08C001DD017 /* HSUnderLineTextField.swift */,
+				0B407F052509E00F006D499D /* Enums.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,20 +254,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B407F15250A3376006D499D /* Estancia+CoreDataClass.swift in Sources */,
+				0B407F18250A3549006D499D /* ResidentPayViewController.swift in Sources */,
+				0B407F0A250A05D4006D499D /* VehicleListTableViewCell.swift in Sources */,
+				0B407F20250A45DA006D499D /* ResidentPayViewModel.swift in Sources */,
 				0B62702425075F470049257C /* CheckoutViewModel.swift in Sources */,
 				0BB3937A25077130001DD017 /* AddVehicleViewController.swift in Sources */,
+				0B407F1E250A4481006D499D /* FileTxtManager.swift in Sources */,
 				0B7CA5AC2506DBE900D8519E /* CheckoutViewController.swift in Sources */,
-				0B62702225074C850049257C /* Placa+CoreDataProperties.swift in Sources */,
+				0B0B87B02509D33600BA976E /* CoreDataManager.swift in Sources */,
 				0B62700D250718590049257C /* RecordListTableViewCell.swift in Sources */,
+				0B407F0C250A0639006D499D /* VehicleListViewModel.swift in Sources */,
 				0B62701A250725EF0049257C /* HugoModel.xcdatamodeld in Sources */,
-				0B7CA5AA2506DAB100D8519E /* AddLicensePlateViewController.swift in Sources */,
+				0B407F13250A3376006D499D /* Placa+CoreDataClass.swift in Sources */,
 				0B7CA5A82506D9E700D8519E /* MenuViewController.swift in Sources */,
 				0B7CA5AE2506DBFC00D8519E /* RecordListViewController.swift in Sources */,
 				0B7CA5932506D9B600D8519E /* AppDelegate.swift in Sources */,
-				0B62702125074C850049257C /* Placa+CoreDataClass.swift in Sources */,
+				0B407F1A250A3575006D499D /* MenuViewModel.swift in Sources */,
+				0B407F14250A3376006D499D /* Placa+CoreDataProperties.swift in Sources */,
+				0B407F062509E00F006D499D /* Enums.swift in Sources */,
+				0B407F0E250A1D62006D499D /* RecordCheckOutView.swift in Sources */,
+				0BB3937F25082CC2001DD017 /* Extensions.swift in Sources */,
+				0B407F08250A05BE006D499D /* VehicleListViewController.swift in Sources */,
+				0B407F16250A3376006D499D /* Estancia+CoreDataProperties.swift in Sources */,
 				0B62701C250730BA0049257C /* RecordListViewModel.swift in Sources */,
-				0B62700B2507173E0049257C /* AddLicensePlateViewModel.swift in Sources */,
+				0B0B87B42509D5FB00BA976E /* CheckInViewController.swift in Sources */,
+				0B0B87B22509D59000BA976E /* CheckInViewModel.swift in Sources */,
 				0BB3937C25077160001DD017 /* AddVehicleViewModel.swift in Sources */,
+				0BB393812508A08C001DD017 /* HSUnderLineTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

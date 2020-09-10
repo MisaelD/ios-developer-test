@@ -3,6 +3,7 @@ import UIKit
 class CheckoutViewController: UIViewController {
 
     @IBOutlet weak var licensePlateTV : UITextField!
+    @IBOutlet weak var recordCheckOut : RecordCheckOutView!
     
     var checkoutViewModel : CheckoutViewModel?
     
@@ -10,6 +11,9 @@ class CheckoutViewController: UIViewController {
         super.viewDidLoad()
         self.title = "Registrar salida"
         navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Checkout", style: .plain, target: self, action: #selector(checkoutButton))
+        licensePlateTV.delegate = self
+        licensePlateTV.placeholder = "Placa"
+        licensePlateTV.becomeFirstResponder()
         checkoutViewModel = CheckoutViewModel()
         
     }
@@ -18,7 +22,8 @@ class CheckoutViewController: UIViewController {
         super.didReceiveMemoryWarning()
     }
     
-    @objc func checkoutButton() {
+    @objc func checkoutButton(sender: UIBarButtonItem) {
+        sender.isEnabled = false
         checkout()
     }
     
@@ -28,15 +33,19 @@ class CheckoutViewController: UIViewController {
             showAlert(text: "Ingrese la placa del automóvil")
             return
         }
+        licensePlateTV.resignFirstResponder()
+        licensePlateTV.isEnabled = false
+        let result = checkoutViewModel?.checkOutVehicle(licensePlate: licensePlateTV.text!)
         
-        let success = checkoutViewModel?.updateLicensePlate(licensePlate: licensePlateTV.text!)
-        
-        if success! {
-            if let navController = self.navigationController {
-                navController.popViewController(animated: true)
-            }
-        }else{
-            showAlert(text: "No se encontró un registro que coincida con la placa")
+        switch result!.0 {
+        case .recordNoExist:
+            showAlert(text: "No se encontró un registro que coincida con la placa del vehículo")
+        case .error:
+            showAlert(text: "Hubo algun problema, inténtelo de nuevo")
+        case .success:
+            recordCheckOut.dataParkStay(estancia: (result?.1)!)
+        default:
+            break
         }
     }
     
@@ -52,5 +61,11 @@ extension CheckoutViewController: UITextFieldDelegate {
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         checkout()
         return true
+    }
+    
+    func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
+        textField.text = (textField.text! as NSString).replacingCharacters(in: range, with: string.uppercased())
+        
+        return false
     }
 }

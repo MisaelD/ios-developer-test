@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="13772" systemVersion="16G2136" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
-    <entity name="Placa" representedClassName="Placa" syncable="YES">
+    <entity name="Estancia" representedClassName="Estancia" syncable="YES">
+        <attribute name="duracion" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
         <attribute name="entrada" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
-        <attribute name="placa" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="salida" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <relationship name="ofPlaca" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Placa" inverseName="estancia" inverseEntity="Placa" syncable="YES"/>
+    </entity>
+    <entity name="Placa" representedClassName="Placa" syncable="YES">
+        <attribute name="placa" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="tipo" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="estancia" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Estancia" inverseName="ofPlaca" inverseEntity="Estancia" syncable="YES"/>
     </entity>
     <elements>
-        <element name="Placa" positionX="-54" positionY="-9" width="128" height="105"/>
+        <element name="Estancia" positionX="-54" positionY="18" width="128" height="105"/>
+        <element name="Placa" positionX="-308" positionY="-18" width="128" height="90"/>
     </elements>
 </model>
