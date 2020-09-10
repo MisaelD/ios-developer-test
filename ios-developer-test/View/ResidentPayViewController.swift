@@ -8,6 +8,7 @@ class ResidentPayViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.title = "Generar informe"
         fileName.becomeFirstResponder()
         residentPayViewModel = ResidentPayViewModel()
         

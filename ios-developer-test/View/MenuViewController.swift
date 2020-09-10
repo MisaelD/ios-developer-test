@@ -6,6 +6,7 @@ class MenuViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.title = "Menú"
         menuViewModel = MenuViewModel()
     }
 
